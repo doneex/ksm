@@ -1,0 +1,160 @@
+.dino {
+    display:none;
+}
+
+.navadd {
+    background-color:#f2fafc;
+    border-radius: 0px;
+    border-bottom: 0px;
+}
+
+.navsmall {
+    margin-bottom: 5px;
+}
+
+.container {
+   background: #428bca;
+   margin-top: 0px;
+}
+
+#head {
+	background: #428bca;
+}
+
+#content {
+    background: #f0ad4e;
+}
+
+#carousel {
+    background: #5cb85c;
+}
+
+.menu-wrap a {
+	width:60%;
+}
+#foot {
+	padding-top: 25px;
+	background: #428bca;
+	color: white;
+}
+
+.carousel {
+	width: 100%;   
+}
+
+#here p {
+    border-right: 1px solid #d9534f;
+    border-radius: 4px;
+}
+
+a[href^="mailto:"] {
+	color:white;
+}
+
+body {
+
+	background: #f2fafc;
+}
+
+h1 {
+	color: white;
+}
+
+img {
+	width: 100%;
+}
+
+
+.mt {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.menu {
+    position: fixed;
+    left: -200px;
+    width: 260px;
+    height: 100%;
+    top: 0;
+    z-index: 10;
+    text-align: left;
+}
+.menu.menu-open {
+    left: 0;
+}
+.menu-wrap {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background: #d9534f; /*#428bca;*/
+    width: 260px;
+    height: 100%}
+
+.menu h1.logo a {
+    font-family: Raleway, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: .15em;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 20px;
+}
+.menu h1.logo a:hover {
+    color: #fff;
+}
+.menu img.logo {
+    margin: 20px 0;
+    max-width: 160px;
+}
+.menu a {
+    margin-left: 20px;
+    color: white;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.menu a:hover {
+    color: #fff;
+}
+.menu a:active {
+    color: #fff;
+}
+.menu a>i {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    width: 25px;
+    font-size: 14px;
+    line-height: 40px;
+    margin: 25px 2px;
+}
+.menu-close {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    top: 20px;
+    right: 5px;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+.menu-close:hover {
+    color: #428bca;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
